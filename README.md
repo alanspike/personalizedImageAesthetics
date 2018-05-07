@@ -9,6 +9,8 @@ The FLICKR-AES and REAL-CUR are available at [google drive](https://drive.google
 The FLICKR-AES_image_labeled_by_each_worker.csv saves the images labeled by each worker. 
 FLICKR-AES_image_score.txt saves the weighted average score for each image.
 
+All the images are under Creative Commons license. The datasets are for research purpose only.
+
 ### Model
 
 The structure of the generic model is provided. 
