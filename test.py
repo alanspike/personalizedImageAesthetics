@@ -1,10 +1,6 @@
-
-
 from extract_features import features
-from learning import inference
 import caffe
 import argparse
-import scipy
 
 
 caffe.set_mode_gpu()
