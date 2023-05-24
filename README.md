@@ -3,11 +3,12 @@
 
 ### Datasets
 
-The FLICKR-AES and REAL-CUR are available at [google drive](https://drive.google.com/drive/folders/1XLlPu_lgHqRstF7DBmXQ2QPSK9KPx1Yu)
+The FLICKR-AES and REAL-CUR are available at [google drive](https://drive.google.com/drive/folders/1LR6trJhN4XbgTtqZo1zfe272cAkXqA7e?usp=share_link)
 
 
-The FLICKR-AES_image_labeled_by_each_worker.csv saves the images labeled by each worker. 
-FLICKR-AES_image_score.txt saves the weighted average score for each image.
+`FLICKR-AES_image_labeled_by_each_worker.csv` saves the images labeled by each worker. 
+
+`FLICKR-AES_image_score.txt` saves the weighted average score for each image.
 
 All the images are under Creative Commons license. The datasets are for research purpose only.
 
@@ -17,7 +18,9 @@ The structure of the generic model is provided.
 
 ### RUN Generic Aesthetics Model
 
+```
 python test.py --filename /path/to/imageList.txt
+```
 
 If you find our work useful, please cite our paper:
 
